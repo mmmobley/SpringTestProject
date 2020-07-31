@@ -1,0 +1,53 @@
+@charset "ISO-8859-1";
+body {
+    background-color: #3AAFA9;
+}
+
+h1 {
+	text-align:center;
+}
+
+.homelist {
+	color: black;
+}
+
+h1, h2, li {
+	color: white;
+}
+
+table {
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px 10px;
+}
+
+th {
+	font-size: 18px;
+}
+
+ul {
+	list-style:inside; 
+	text-align:center;
+}
+
+.kitlist {
+	font-size:20px;
+}
+
+form {
+	color: white;
+}
+
+text area {
+	margin-left: auto;
+	margin-right: auto;
+} 
+
+#button {
+	color: white;
+	background-color: #2B7A78;
+	font-size: 15px;
+	border: none;
+	padding: 5px 5px 5px 5px;
+}
+

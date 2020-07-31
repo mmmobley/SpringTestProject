@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<title>Subscriber Sign-Up</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	</head>
+	<body>
+		<h3>Subscriber Sign-up Form</h3>
+		<p>Thank you for signing up!</p>
+		<h4>Subscriber:</h4>
+		<p th:text="${name}" />
+		<p th:text="${userName}" />
+		<p th:text="${email}" />
+		<p th:text="${passWord}" />
+		
+		<!--<form id = "home" th:action = "@{/}"  method="get">
+			    <div class="col-xs-12 col-sm-6 col-md-6">
+			        <br/>
+			        <button type="submit">Go to Home Page</button>
+			    </div>
+		</form>  -->
+	</body>
+</html>
